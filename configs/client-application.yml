@@ -7,7 +7,7 @@ server.port: 8000
 spring:
   profiles: dev #开发环境
   application:
-    name:microservice-client-remote-dev
+    name: microservice-client-remote-dev
   client:
     serviceUrl:
       defaultZone: http://localhost/7000/eureka
@@ -16,7 +16,7 @@ server.port: 8001
 spring:
   profiles: test
   application:
-    name:microservice-client-remote-test
+    name: microservice-client-remote-test
   client:
     serviceUrl:
       defaultZone: http://localhost/7000/eureka
