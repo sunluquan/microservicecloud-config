@@ -1,2 +1,11 @@
 spring:
-  port: 8000
+  profiles:
+    active: -dev #设置开发模式为默认的
+spring:
+  profiles: dev #开发环境
+  application:
+    name: microservicecloud-config-dev
+spring:
+  profiles: test #测试环境
+  application:
+    name: microservicecloud-config-test
